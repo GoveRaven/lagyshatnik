@@ -1,0 +1,116 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.index-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 170px 170px 170px;
+  grid-template-rows: auto 200px;
+
+  width: 550px;
+  min-height: 500px;
+  margin: auto;
+
+  border: 2px solid gray;
+  background-color: white;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+
+  min-height: 35px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+  background-color: rgb(47, 47, 141);
+  color: white;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+}
+
+.site-nav div {
+  display: inline-block;
+}
+
+.promo {
+  display: flex;
+  align-items: flex-end;
+  border: 2px solid yellow;
+  background-color: gray;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.button {
+  width: 110px;
+  height: 30px;
+
+  margin: 10px;
+
+  text-align: center;
+
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+
+.blog {
+  border: 2px solid green;
+  padding: 0 10px;
+}
+
+.img {
+  max-width: 170px;
+  height: 75px;
+  background-color: crimson;
+}
+
+.sidebar {
+  border: 2px solid #c734c7;
+  padding-left: 10px;
+}
+
+.star {
+  border-bottom: 1px dotted gray;
+}
+
+.star p {
+  line-height: 1px;
+}
+
+.star h5 {
+  line-height: 1px;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.site-footer {
+  background-color: rgb(47, 47, 141);
+  color: white;
+}
+
+.site-footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+
+  margin-left: 30px;
+  background-color: rgb(24, 24, 77);
+  border-radius: 50%;
+}

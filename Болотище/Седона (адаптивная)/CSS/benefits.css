@@ -1,0 +1,258 @@
+.main__benefits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 256px 330px 256px 256px;
+}
+
+.benefits__one,
+.benefits__two {
+  background: #83b3d3;
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.benefit * {
+  width: 295px;
+  margin: 0;
+}
+
+.benefits__divider {
+  display: none;
+}
+
+.benefits__title {
+  width: 160px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.benefits-white {
+  color: white;
+}
+
+.benefits__number {
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.benefits__photo1 {
+  grid-column: span 2;
+  background-image: url("../Img/benefits-photo1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.benefits__three,
+.benefits__four,
+.benefits__five {
+  background: #eeeeee;
+}
+
+.benefits__house,
+.benefits__food,
+.benefits__souvenirs {
+  height: 330px;
+}
+
+.house-icon {
+  background-image: url("../Img/house-icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 75px;
+  height: 72px;
+}
+
+.food-icon {
+  background-image: url("../Img/food-icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 74px;
+  height: 70px;
+}
+
+.souvenirs-icon {
+  background-image: url("../Img/souvenirs-icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 64px;
+  height: 76px;
+}
+
+.benefit-icon {
+  margin-bottom: 30px;
+}
+
+.benefits__photo2 {
+  grid-column: span 2;
+  background-image: url("../Img/benefits-photo2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .main__benefits {
+    grid-template-columns: repeat(3, 256px);
+    grid-template-rows: 256px 330px 256px 256px;
+  }
+
+  .benefit * {
+    width: 192px;
+  }
+
+  .house-icon {
+    width: 75px;
+    height: 72px;
+  }
+
+  .food-icon {
+    width: 74px;
+    height: 70px;
+  }
+
+  .souvenirs-icon {
+    width: 64px;
+    height: 76px;
+  }
+}
+
+@media (max-width: 425px) {
+  .main__benefits {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .benefits__one {
+    height: 210px;
+    order: 0;
+  }
+
+  /*
+  .benefit * {
+    width: 282px;
+  }
+  */
+
+  .benefits__divider {
+    position: relative;
+    bottom: 10px;
+    display: block;
+    width: 7680px;
+    height: 40px;
+    background-image: url("../Img/benefit-divider.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .benefits__title {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 25px;
+  }
+
+  .benefits__number {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .benefits__text {
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .benefits__photo1 {
+    height: 260px;
+  }
+
+  .benefits__house,
+  .benefits__food,
+  .benefits__souvenirs {
+    height: 180px;
+    order: 0;
+
+    position: relative;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 75px;
+  }
+
+  .benefit-icon {
+    position: absolute;
+    top: 21px;
+    left: 26px;
+  }
+
+  .house-icon {
+    width: 39px;
+    height: 37px;
+  }
+
+  .food-icon {
+    width: 40px;
+    height: 38px;
+  }
+
+  .souvenirs-icon {
+    width: 40px;
+    height: 48px;
+  }
+
+  .benefits__photo2 {
+    height: 260px;
+    order: 2;
+  }
+
+  .benefits__two {
+    order: 1;
+  }
+
+  .benefits__two .benefits__title,
+  .benefits__one .benefits__title {
+    margin-top: 40px;
+  }
+
+  .benefits__three,
+  .benefits__four,
+  .benefits__five {
+    order: 2;
+  }
+
+  .benefits__three .benefits__title,
+  .benefits__four .benefits__title,
+  .benefits__five .benefits__title {
+    padding-top: 25px;
+  }
+
+  .benefits__three .benefits__text,
+  .benefits__four .benefits__text,
+  .benefits__five .benefits__text {
+    margin-bottom: 30px;
+  }
+
+  .benefits__four {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+  }
+}

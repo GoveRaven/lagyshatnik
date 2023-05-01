@@ -1,0 +1,32 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.block {
+  position: relative;
+  display: inline-block;
+  width: 75px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #3a78a1;
+}
+
+.block-1 {
+  width: 150px;
+  height: 200px;
+}
+
+.block-absolute {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #e74c3c;
+}

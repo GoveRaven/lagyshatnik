@@ -1,0 +1,53 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+h3 {
+    text-align: center;
+}
+
+.room {
+  background-color: #c2b96c;
+  border: 2px dashed #83770b;
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.rug {
+  display: flex;
+  background-color: #aaceda;
+  border: 2px solid #33b7df;
+  margin: 10px;
+  min-height: 100px;
+  width: 400px;
+  min-width: 130px;
+  align-items: center;
+  justify-content: center;
+}
+
+.room1 {
+    align-content: flex-start;
+}
+
+.room2 {
+    align-content: flex-end;
+}
+
+.room3 {
+    align-content: space-between;
+}
+
+.room4 {
+    align-content: space-around;
+}

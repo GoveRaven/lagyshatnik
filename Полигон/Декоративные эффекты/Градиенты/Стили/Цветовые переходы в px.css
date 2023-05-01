@@ -1,0 +1,76 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.content {
+  width: 450px;
+  margin: auto;
+}
+
+.part {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+.part1,
+.part4 {
+  border-radius: 0 50%;
+}
+
+.part2,
+.part3 {
+  border-radius: 50% 0;
+}
+
+.part1 {
+  background-image: linear-gradient(
+    -45deg,
+    #f00 30px,
+    #000 30px,
+    #000 40px,
+    #f00 40px,
+    #f00 70px,
+    #000 70px
+  );
+}
+
+.part2 {
+  background-image: linear-gradient(
+    45deg,
+    #0f0 30px,
+    #000 30px,
+    #000 40px,
+    #0f0 40px,
+    #0f0 70px,
+    #000 70px
+  );
+}
+
+.part3 {
+  background-image: linear-gradient(
+    225deg,
+    #f0f 30px,
+    #000 30px,
+    #000 40px,
+    #f0f 40px,
+    #f0f 70px,
+    #000 70px
+  );
+}
+
+.part4 {
+    background-image: linear-gradient(
+      135deg,
+      #ff0 30px,
+      #000 30px,
+      #000 40px,
+      #ff0 40px,
+      #ff0 70px,
+      #000 70px);
+  }

@@ -1,0 +1,54 @@
+.main__sort {
+  width: 1057px;
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+  margin-bottom: 55px
+}
+
+.main__sort > * {
+  margin: 0;
+  padding: 0;
+}
+
+.sort__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+
+  text-transform: uppercase;
+}
+
+.sort__sel {
+  width: 287px;
+  height: 48px;
+  margin-left: 180px;
+  margin-right: 80px;
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+  border: 2px solid #e6e6e6;
+  border-radius: 4px;
+}
+
+.sort__sel::after {
+    content: 's';
+    padding-right: 2px;
+}
+
+.mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  margin-left: 8px;
+  border: 2px solid #e6e6e6;
+  background: none;
+  border-radius: 4px;
+}
+
+.mode.active {
+  border: 2px solid #000000;
+}

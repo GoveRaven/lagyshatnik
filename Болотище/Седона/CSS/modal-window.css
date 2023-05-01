@@ -1,0 +1,165 @@
+.main__modal-window {
+  position: fixed;
+  margin: 150px 600px;
+  padding: 62px 25px 32px 0px;
+  width: 715px;
+  height: 560px;
+  background: #ffffff;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+}
+
+.mw__title {
+  display: inline-block;
+  margin: 0;
+  margin-right: 110px;
+  margin-bottom: 65px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.mw__close-btn {
+  margin: 0;
+  padding: 0;
+  width: 53px;
+  height: 53px;
+  background: #f2f2f2;
+  border: none;
+  border-radius: 50%;
+}
+
+.mw__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form__place {
+  display: flex;
+  justify-content: space-between;
+  width: 575px;
+  height: 50px;
+}
+
+.form-tip {
+  margin: 0;
+  margin-bottom: 11px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.first-tip {
+  margin-left: 20px;
+  color: #ff5757;
+}
+
+.second-tip {
+  margin-left: 70px;
+}
+
+.form__info,
+.people__info {
+  width: 420px;
+  height: 50px;
+  padding-left: 20px;
+  background: #f2f2f2;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  display: flex;
+
+  align-items: center;
+}
+
+.form__people {
+  width: 575px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.people__place {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.people__kids-btn {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  color: white;
+  background: #83b3d3;
+  border: none;
+  border-radius: 50%;
+}
+
+.kids-btn-info {
+  position: absolute;
+  top: 35px;
+  left: -120px;
+  width: 256px;
+  padding: 15px 18px 18px 22px;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  background: #333333;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.kids-btn-info::after {
+  content: "";
+  position: absolute;
+  top: -35px;
+  right: 103px;
+  border: 20px solid transparent;
+  border-bottom: 20px solid #333333;
+}
+
+.kids-btn-info-hide {
+  display: none;
+}
+
+.people__info {
+  width: 133px;
+  text-align: center;
+}
+
+.mw__find-btn {
+  width: 575px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  color: white;
+  background: #83b3d3;
+  border: none;
+  border-radius: 10px;
+}
+
+.mw_hide {
+  display: none;
+}
+
+.main__curtain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(242, 242, 242, 0.8);
+}

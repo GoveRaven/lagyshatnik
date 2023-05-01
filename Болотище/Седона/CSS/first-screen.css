@@ -1,0 +1,58 @@
+.main__first-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-screen__welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 485px;
+  background-image: url("../Img/first-screen-background.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.welcome__welcome {
+  width: 188px;
+  height: 45px;
+  margin-top: 52px;
+  margin-bottom: 11px;
+}
+
+.welcome__underwelcome {
+  width: 256px;
+  height: 29px;
+  margin-bottom: 54px;
+}
+
+.welcome__name {
+  width: 457px;
+  height: 213px;
+}
+
+.first-screen-divider {
+  background-size: cover;
+}
+
+.first-screen__Sedona {
+  margin-top: 63px;
+  width: 740px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.first-screen__reasons {
+  margin: 31px 0 80px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+
+  text-align: center;
+}

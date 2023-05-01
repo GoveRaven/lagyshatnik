@@ -1,0 +1,70 @@
+.main__mail {
+  height: 441px;
+  color: white;
+  background-image: url("../Img/subscription-background.jpg");
+  background-size: cover;
+}
+
+.mail_subscription {
+  margin: 0 auto;
+  width: 800px;
+  height: 224px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__subscription * {
+  margin: 0;
+  padding: 0;
+}
+
+.subscription__title {
+  margin-top: 94px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+
+  text-transform: uppercase;
+}
+.subscription__text {
+    width: 500px;
+  margin: 29px 0 46px;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.subscription__email {
+  display: flex;
+}
+
+.subscription__email * {
+  padding: 0;
+  margin: 0;
+}
+.email__input {
+  width: 600px;
+  height: 60px;
+  display: flex;
+align-items: center;
+  background: #f2f2f2;
+  padding: 0px 20px;
+  font-size: 18px;
+  line-height: 26px;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+}
+.email__btn {
+  width: 190px;
+  height: 60px;
+  color: white;
+  background: #83b3d3;
+  border-radius: 0px 10px 10px 0px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+
+  text-transform: uppercase;
+  border: none;
+}

@@ -1,0 +1,38 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.btn {
+  display: block;
+  margin: 100px auto;
+  padding: 15px 20px;
+  width: 150px;
+  border: none;
+  box-sizing: content-box;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font: inherit;
+}
+
+.btn1 {
+  box-shadow: 0 0 6px -2px #34495e;
+}
+
+.btn2 {
+  box-shadow: 0 0 6px 0 #34495e;
+}
+
+.btn3 {
+  box-shadow: 0 0 6px 3px #34495e;
+}
+
+.btn4 {
+  box-shadow: 0 0 3px 6px #34495e;
+}

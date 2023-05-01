@@ -1,0 +1,51 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.spot {
+  width: 800px;
+  height: 600px;
+  border: 2px solid #bdeefa;
+  background-color: rgb(6, 185, 6);
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.skate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 40px;
+  min-height: 120px;
+  background-color: rgb(165, 122, 42);
+  border: 5px solid white;
+  border-top-left-radius: 75% 25%;
+  border-top-right-radius: 75% 25%;
+  border-bottom-right-radius: 75% 25%;
+  border-bottom-left-radius: 75% 25%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.skate::after {
+  left: 50%;
+  margin-left: -10px;
+}
+
+img {
+  margin: auto;
+}
+
+.skate-2 {
+    margin-left: auto;
+}
+
+.skate-4 {
+    margin-right: auto;
+}

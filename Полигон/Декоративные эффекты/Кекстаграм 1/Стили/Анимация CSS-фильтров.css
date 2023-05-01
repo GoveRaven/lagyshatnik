@@ -1,0 +1,35 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.origin {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.picture {
+  width: 350px;
+  background-color: white;
+  padding: 10px 10px 40px 10px;
+  box-shadow: 0 0 10px 1px rgb(75, 75, 75);
+}
+
+img {
+  width: 350px;
+}
+
+@keyframes rotate-colors {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.picture img {
+  animation: rotate-colors 2s linear infinite;
+}

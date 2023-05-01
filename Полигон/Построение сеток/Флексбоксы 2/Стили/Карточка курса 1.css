@@ -1,0 +1,54 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.card {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 20px;
+  max-width: 70%;
+
+  display: flex;
+  flex-direction: column;
+
+  outline: 2px solid rgba(225, 0, 0, 0.3);
+  outline-offset: -2px;
+}
+
+.card-meta {
+  display: flex;
+}
+
+.card-category {
+  flex-grow: 1;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  margin: 10px 0;
+  background-color: rgb(211, 163, 255);
+}
+
+.card > * {
+  outline: 2px solid rgba(0, 128, 0, 0.3);
+}
+
+.card-meta > * {
+  outline: 2px solid rgba(134, 134, 134, 0.3);
+}
+
+.button {
+  text-align: center;
+  width: 110px;
+  height: 30px;
+  margin-top: 20px;
+
+  background-color: rgb(107, 107, 255);
+  color: white;
+}

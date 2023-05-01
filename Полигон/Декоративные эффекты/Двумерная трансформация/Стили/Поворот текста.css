@@ -1,0 +1,26 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+article {
+  position: relative;
+  margin: auto;
+  padding: 10px;
+  border-left: 40px solid #7fdbff;
+  background-color: white;
+  width: 400px;
+  box-shadow: 0 0 3px #ccc;
+}
+
+h3 {
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  position: absolute;
+  top: 10px;
+  left: -7px;
+}

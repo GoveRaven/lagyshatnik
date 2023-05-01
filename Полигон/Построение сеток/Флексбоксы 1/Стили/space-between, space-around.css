@@ -1,0 +1,37 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.room {
+  background-color: #c2b96c;
+  border: 2px dashed #83770b;
+  min-height: 300px;
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.rug {
+  display: flex;
+  background-color: #aaceda;
+  border: 2px solid #33b7df;
+  margin: 10px;
+  min-height: 70px;
+  min-width: 130px;
+  align-items: center;
+  justify-content: center;
+}
+
+.room1 {
+    justify-content: space-between;
+}
+
+.room2 {
+    justify-content: space-around;
+}

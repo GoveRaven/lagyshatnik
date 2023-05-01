@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FlashNews!</title>
+    <link rel="stylesheet" href="Новости.css" />
+    <link rel="stylesheet" href="Тёмная тема.css" />
+  </head>
+  <body>
+    <header>
+      FlashNews!
+      <button class="theme">Сменить тему</button>
+    </header>
+    <main class="inner-news">
+      <article class="container">
+        <h1 class="inner-heading">Шок! Сканал! Сенсация!</h1>
+        <div class="news-full">
+          <div class="img"></div>
+          <div class="news-stats">
+            <button class="heart heartLight" type="button">
+              <span class="likes-number">245</span>
+            </button>
+            <time datetime="2019-12-22">22 декабря 2019</time>
+          </div>
+          <p>
+            Оказывается, для того, чтобы начать программировать на JavaScript,
+            необязательно быть котом! Учёные создали первого робота, который
+            может развиваться и изменять свой код. Он сразу же научился верстать
+            сайты и уехал фрилансить на Бали.
+          </p>
+        </div>
+      </article>
+      <div class="comments">
+        <h2>Комментарии</h2>
+        <ol class="comment-list">
+          <li class="user-comment">Да ну, бред какой-то...</li>
+        </ol>
+        <form class="comment-form">
+          <h5>Ваш комментарий</h5>
+          <input type="text" placeholder="Комментарий" class="my-comment" />
+          <button type="submit" class="comment-button">Отправить</button>
+        </form>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <p>FlashNews!</p>
+      </div>
+    </footer>
+    <script src="likes.js"></script>
+    <script src="comments.js"></script>
+    <script src="theme.js"></script>
+  </body>
+</html>

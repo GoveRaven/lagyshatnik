@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 6vh;
+  padding-left: 5%;
+}
+
+.headerLight {
+  background-color: white;
+  color: black;
+}
+
+.theme {
+  position: absolute;
+  right: 5%;
+  padding: 5px;
+  background-color: rgb(160, 87, 230);
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+}
+
+.inner-news {
+  width: 90%;
+  margin: auto;
+  flex: 1;
+}
+
+.news-full {
+  background-color: white;
+  box-shadow: 0 0 3px;
+  padding-bottom: 5px;
+}
+
+.img {
+  width: 100%;
+  height: 30vh;
+  background-color: coral;
+}
+
+.news-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 10px 20px;
+}
+
+.news-stats time {
+  color: gray;
+}
+
+.news-stats .heart {
+  height: 30px;
+  width: 30px;
+  background-image: url("картинки/like.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border: 0px;
+}
+
+.heartLight {
+  background-color: white;
+}
+
+.news-stats .added {
+  background-image: url("картинки/like_red.png");
+}
+
+.news-stats .likes-number {
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+.news-full p {
+  margin: 20px;
+}
+
+.comments {
+  width: 100%;
+}
+
+.comment-list {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.user-comment {
+  max-width: 90%;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+li::marker {
+  content: "#" counter(list-item);
+}
+
+.comment-form {
+  max-width: 90%;
+  background-color: white;
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.comment-form h5 {
+  margin: 0px;
+  color: rgb(160, 87, 230);
+}
+
+.my-comment {
+  padding: 10px;
+  border: 1px solid gray;
+  min-width: 70%;
+}
+
+.comment-button {
+  margin-left: 10px;
+  padding: 10px;
+  background-color: rgb(160, 87, 230);
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: rgb(160, 87, 230);
+  height: 6vh;
+  padding-left: 5%;
+}

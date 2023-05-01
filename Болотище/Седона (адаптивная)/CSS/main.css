@@ -1,0 +1,9 @@
+.site__main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.site__main > * {
+    width: 100%;
+}

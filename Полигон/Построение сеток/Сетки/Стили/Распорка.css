@@ -1,0 +1,49 @@
+body {
+  background-color: aliceblue;
+}
+
+h1:nth-child(2) {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.container {
+  width: 400px;
+  min-height: 150px;
+  margin: 20px auto;
+  padding: 10px;
+  box-shadow: 0 0 2px #ccc;
+}
+
+.columns-container {
+  padding: 10px;
+  background-color: #ecf0f1;
+  border: 2px solid #34495e;
+}
+
+.column {
+  width: 40%;
+  height: 100px;
+  padding: 10px;
+  color: white;
+  background-color: #3498db;
+  border: 2px solid #34495e;
+}
+
+.column1 {
+  float: left;
+}
+
+.column2 {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+  height: 0;
+}

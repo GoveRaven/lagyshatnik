@@ -1,0 +1,95 @@
+.table1 {
+  border: 3px solid black;
+}
+
+.table1 td,
+.table2 td {
+  border: 3px solid lightgrey;
+}
+
+.table2,
+.table3,
+.table4,
+.table6,
+.table10 {
+  border: 4px solid black;
+  border-collapse: collapse;
+}
+
+.table3 td {
+  border-bottom: 2px solid rgb(136, 136, 136);
+}
+
+.table4 td {
+  border: 2px solid lightgray;
+  padding: 5px;
+  padding-right: 30px;
+}
+
+.table5 {
+  border-collapse: separate;
+  border: 3px solid black;
+  border-spacing: 5px;
+}
+
+.table5 td {
+  padding: 5px;
+  border: 2px solid lightgrey;
+}
+
+.table6 th {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid black;
+}
+
+caption {
+  caption-side: bottom;
+  text-align: right;
+}
+
+.table7,
+.table8,
+.table9 {
+  border-collapse: collapse;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.table7 td,
+.table8 td,
+.table9 td {
+  border: 1px solid black;
+}
+
+.table7 td {
+  text-align: center;
+}
+
+.table8 td {
+  vertical-align: top;
+}
+
+.table10 {
+  width: 300px;
+  height: 100px;
+}
+
+.table10 th {
+  background-color: lightslategray;
+  color: darkblue;
+}
+
+.table10 td {
+  background-color: lightyellow;
+  color: brown;
+}
+
+.width30 {
+  width: 70%;
+}
+
+.width40 {
+  width: 70%;
+}

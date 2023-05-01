@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sedona</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="CSS/modal-window.css" />
+    <link rel="stylesheet" href="CSS/first-screen.css" />
+    <link rel="stylesheet" href="CSS/benefits.css" />
+    <link rel="stylesheet" href="CSS/hotel-search.css" />
+    <link rel="stylesheet" href="CSS/subscription.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
+  </head>
+  <body>
+    <header class="site__header">
+      <img src="Img/logo.svg" alt="Лого" class="header__logo" />
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__list-item active">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="header__list-item">О Седоне</li>
+          <li class="header__list-item">
+            <a href="Catalog/Catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__menu">
+        <img src="img/search.svg" />
+        <img src="img/favorite.svg" />
+        <button class="header__button open_modal-window">
+          <span>Хочу сюда!</span>
+        </button>
+      </div>
+    </header>
+    <main class="site__main">
+      <section class="main__curtain mw_hide">
+        <div class="main__modal-window">
+          <h1 class="mw__title">Поиск гостиницы в Седоне</h1>
+          <button class="mw__close-btn">
+            <img src="Img/mw__close-btn.svg" />
+          </button>
+          <form class="mw__form">
+            <label class="form__place"
+              >Дата заезда:
+              <input type="date" class="form__info" />
+            </label>
+            <p class="form-tip first-tip">Мы не можем отправить вас в прошлое.</p>
+            <label class="form__place"
+              >Дата выезда:
+              <input type="date" class="form__info" />
+            </label>
+            <p class="form-tip second-tip">На эти даты есть свободные номера. Пока есть.</p>
+            <div class="form__people">
+              <label class="people__place"
+                >Взрослые:
+                <input type="number" class="people__info" />
+              </label>
+              <label class="people__place"
+                >Дети:
+                <button type="button" class="people__kids-btn">
+                  i
+                  <div class="kids-btn-info kids-btn-info-hide">
+                    Укажите количество детей, которые будут с вами, возраст
+                    которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+                  </div>
+                </button>
+                <input type="number" class="people__info" />
+              </label>
+            </div>
+          </form>
+          <button class="mw__find-btn">Найти</button>
+        </div>
+      </section>
+      <section class="main__first-screen">
+        <div class="first-screen__welcome">
+          <img
+            src="Img/first-screen-welcome.svg"
+            alt="welcome"
+            class="welcome__welcome"
+          />
+          <img
+            src="Img/first-screen-to-the.svg"
+            alt="to the gorgeous"
+            class="welcome__underwelcome"
+          />
+          <img
+            src="Img/first-screen-Sedona.svg"
+            alt="Sedona"
+            class="welcome__name"
+          />
+          <img
+            src="Img/first-screen-divider.svg"
+            class="first-screen-divider"
+          />
+        </div>
+        <h1 class="first-screen__Sedona">
+          Седона — небольшой городок в Аризоне, заслуживающий большего!
+        </h1>
+        <p class="first-screen__reasons">
+          Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
+        </p>
+      </section>
+      <section class="main__benefits">
+        <article class="benefits__one benefits-white benefit">
+          <h1 class="benefits__title">Настоящий городок</h1>
+          <h2 class="benefits__number">— №1 —</h2>
+          <p class="benefits__text white-text">
+            Седона — не аттракцион для туристов, там течёт своя жизнь
+          </p>
+        </article>
+        <article class="benefits__photo1"></article>
+        <article class="benefits__house benefit">
+          <img src="Img/house-icon.svg" class="house-icon" />
+          <h1 class="benefits__title">Жильё</h1>
+          <p class="benefits__text">
+            Рекомендуем пожить в настоящем мотеле, всё как в кино!
+          </p>
+        </article>
+        <article class="benefits__food benefit">
+          <img src="Img/food-icon.svg" class="food-icon" />
+          <h1 class="benefits__title">Еда</h1>
+          <p class="benefits__text">
+            Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
+          </p>
+        </article>
+        <article class="benefits__souvenirs benefit">
+          <img src="Img/souvenirs-icon.svg" class="souvenirs-icon" />
+          <h1 class="benefits__title">Сувениры</h1>
+          <p class="benefits__text">
+            Не только китайского, но и настоящего местного производства!
+          </p>
+        </article>
+        <article class="benefits__photo2"></article>
+        <article class="benefits__two benefits-white benefit">
+          <h1 class="benefits__title">Там есть мост дьявола</h1>
+          <h2 class="benefits__number">— №2 —</h2>
+          <p class="benefits__text white-text">
+            Да, по нему можно пройти! Если вы осмелитесь, разумеется
+          </p>
+        </article>
+        <article class="benefits__three benefit">
+          <h1 class="benefits__title">Небольшая площадь</h1>
+          <h2 class="benefits__number">— №3 —</h2>
+          <p class="benefits__text">
+            Все достопримечательности находятся очень близко
+          </p>
+        </article>
+        <article class="benefits__four benefit">
+          <h1 class="benefits__title">Красивая дорога</h1>
+          <h2 class="benefits__number">— №4 —</h2>
+          <p class="benefits__text">
+            Ехать в Седону из Лас-Вегаса совсем не скучно!
+          </p>
+        </article>
+        <article class="benefits__five benefit">
+          <h1 class="benefits__title">Мало туристов</h1>
+          <h2 class="benefits__number">— №5 —</h2>
+          <p class="benefits__text">
+            Большинство едет в Гранд Каньон и толпится там
+          </p>
+        </article>
+      </section>
+      <section class="main__hotel-search">
+        <h1 class="hotel-search__title">Заинтересовались?</h1>
+        <p class="hotel-search__text">
+          Укажите предполагаемые даты поездки, <br />
+          и мы покажем вам лучшие предложения гостиниц в Седоне
+        </p>
+        <button class="hotel-search__btn open_modal-window">
+          ПОИСК ГОСТИНИЦЫ В седоне
+        </button>
+      </section>
+      <section class="main__mail">
+        <article class="mail_subscription">
+          <h1 class="subscription__title">Подпишитесь на рассылку</h1>
+          <p class="subscription__text">
+            Только полезная информация и никакого спама, честное бойскаутское!
+          </p>
+          <div class="subscription__email">
+            <input type="email" class="email__input" placeholder="Ваш e-mail" />
+            <button class="email__btn">Подписаться</button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="site__footer">
+      <div class="footer__social">
+        <a href="#" class="social__twitter"
+          ><img src="Img/social-twitter.svg" alt="twitter" />
+        </a>
+        <a href="#" class="social__facebook"
+          ><img src="Img/social-facebook.svg" alt="facebook"
+        /></a>
+        <a href="#" class="social__youtube"
+          ><img src="Img/social-youtube.svg" alt="youtube"
+        /></a>
+      </div>
+      <h1 class="footer__number">+7 (812) 812-12-12</h1>
+      <img src="Img/footer__logo.svg" alt="HTML Academy" />
+    </footer>
+    <script src="JS/modal-window.js"></script>
+    <script src="JS/kids-info-btn.js"></script>
+  </body>
+</html>

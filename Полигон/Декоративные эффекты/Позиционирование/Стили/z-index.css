@@ -1,0 +1,40 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.block {
+  padding: 10px;
+  text-align: right;
+  color: white;
+  opacity: 0.8;
+}
+
+.block-1 {
+    position: relative;
+    z-index: 200;
+  width: 350px;
+  height: 350px;
+  background-color: #3a78a1;
+}
+
+.block-2 {
+  position: absolute;
+  top: 129px;
+  width: 250px;
+  height: 250px;
+  background-color: #e74c3e;
+  z-index: 100;
+}
+
+.block-3 {
+    position: absolute;
+    top: 129px;
+    width: 150px;
+    height: 150px;
+    background-color: #27ae60;
+}

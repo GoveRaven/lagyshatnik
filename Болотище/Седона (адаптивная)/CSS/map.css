@@ -1,0 +1,12 @@
+.map {
+  position: relative;
+  height: 350px;
+  background-image: url('../Img/map-background.jpg');
+  background-position: center;
+}
+
+.map__marker {
+  position: absolute;
+  top: 50%;
+  left: 49%;
+}

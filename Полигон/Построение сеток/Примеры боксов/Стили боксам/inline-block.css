@@ -1,0 +1,24 @@
+body {
+    padding: 20px;
+}
+
+.column {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100px;
+}
+
+.column1 {
+    height: 40px;
+}
+
+.column2 {
+    height: 60px;
+}
+
+.column3 {
+    height: 80px;
+}

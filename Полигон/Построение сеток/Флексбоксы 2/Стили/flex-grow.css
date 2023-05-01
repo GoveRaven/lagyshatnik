@@ -1,0 +1,39 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.spot {
+  width: 600px;
+  height: 200px;
+  margin: 20px auto;
+  border: 2px solid #bdeefa;
+  background-color: rgb(6, 185, 6);
+  display: flex;
+}
+
+.skate {
+  display: flex;
+  min-width: 50px;
+  min-height: 50px;
+  background-color: rgb(165, 122, 42);
+  border: 5px solid white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+img {
+  margin: auto;
+}
+
+.skate-1 {
+    flex-grow: 1;
+}
+
+.skate-4 {
+    flex-grow: 1;
+}

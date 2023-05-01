@@ -1,0 +1,26 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.work {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.box-shadow {
+  box-shadow: 0 0 10px red;
+}
+
+.filter-shadow {
+  filter: drop-shadow(0 0 10px red);
+}
+
+.box1 {
+  background-color: white;
+}

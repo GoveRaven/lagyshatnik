@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    background-image: url("../Картинки/photo-1589675192397-1550ff0f7c12.jpg");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.block {
+    width: 192px;
+    height: 256px;
+    margin: 20px auto;
+    background-color: #34495e;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 5px;
+}
+
+.block:nth-child(1) {
+    background-image: url("../Картинки/cat-clean-icon.png") ;
+}
+
+.block:nth-child(2) {
+    background-image: url("../Картинки/cat-fight-icon.png") ;
+}
+
+.block:nth-child(3) {
+    background-image: url("../Картинки/cat-hiss-icon.png") ;
+}
+
+.block:nth-child(4) {
+    background-image: url("../Картинки/cat-poo-icon.png") ;
+}

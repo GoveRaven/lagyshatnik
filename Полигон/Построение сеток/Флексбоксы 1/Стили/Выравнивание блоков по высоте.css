@@ -1,0 +1,26 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+  width: 1000px;
+}
+
+section {
+  width: 200px;
+  background-color: white;
+  padding: 0px 5px;
+  margin: 5px;
+  display: inline-block;
+  border: 2px solid black;
+  box-shadow: 5px;
+  vertical-align: top;
+}

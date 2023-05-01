@@ -1,0 +1,39 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+h3 {
+  text-align: center;
+}
+
+.room {
+  background-color: #c2b96c;
+  border: 2px dashed #83770b;
+  min-height: 300px;
+  display: flex;
+  width: 1050px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+.room2 {
+    align-content: center;
+}
+
+.rug {
+  display: flex;
+  background-color: #aaceda;
+  border: 2px solid #33b7df;
+  margin: 10px 50px;
+  width: 200px;
+  min-height: 80px;
+  align-items: center;
+  justify-content: center;
+}

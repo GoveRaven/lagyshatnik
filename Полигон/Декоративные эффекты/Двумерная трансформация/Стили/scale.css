@@ -1,0 +1,44 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.world {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(213, 255, 149);
+}
+
+.wizard {
+  position: relative;
+  top: 244px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(109, 109, 255);
+}
+
+.mouse {
+  position: relative;
+  top: 200px;
+  left: 230px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  transform: scale(3);
+}
+
+.hippo {
+  position: relative;
+  top: 120px;
+  left: 340px;
+  width: 80px;
+  height: 80px;
+  background-color: purple;
+  transform: scale(0.25);
+}

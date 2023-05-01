@@ -1,0 +1,34 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.world {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(213, 255, 149);
+}
+
+.wizard {
+  position: relative;
+  top: 244px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(109, 109, 255);
+}
+
+.monster {
+  position: relative;
+  top: 160px;
+  left: 340px;
+  width: 80px;
+  height: 80px;
+  background-color: darkolivegreen;
+  transform: skewX(30deg) skewY(30deg);
+}

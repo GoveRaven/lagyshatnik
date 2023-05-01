@@ -1,0 +1,41 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.man {
+  position: relative;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  border: 1px dotted #999;
+}
+
+.block-1 {
+  position: relative;
+  min-height: 100px;
+  padding: 10px;
+  background-color: #3a78a1;
+}
+
+.block-2 {
+  position: relative;
+  min-height: 100px;
+  padding: 10px;
+  background-color: #27ae60;
+}
+
+.block-absolute {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 120px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(225, 0, 0, 0.5);
+}

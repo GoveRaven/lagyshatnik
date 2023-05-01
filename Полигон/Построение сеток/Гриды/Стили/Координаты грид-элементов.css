@@ -1,0 +1,27 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.world {
+  width: 500px;
+  margin: auto;
+}
+
+.land {
+  display: grid;
+  grid-template-columns: 125px 125px 125px 125px;
+  grid-template-rows: 125px 125px 125px 125px;
+
+  border: 1px solid black;
+}
+
+.element {
+  background-color: rgb(94, 209, 255);
+  grid-column-start: 2;
+  grid-row-start: 3;
+}

@@ -1,0 +1,13 @@
+body {
+  padding: 0 20px;
+}
+
+p {
+  padding: 5px;
+}
+
+em {
+  border: 2px solid #6a6a6a;
+  padding: 10px;
+  margin: 10px;
+}

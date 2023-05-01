@@ -1,0 +1,20 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.content {
+  height: 500px;
+  border: 1px solid #000;
+  background-image: linear-gradient(
+    to bottom,
+    blue 5%,
+    white 20%,
+    red 60%,
+    yellow 80%
+  );
+}

@@ -1,0 +1,38 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.world {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(213, 255, 149);
+}
+
+img {
+  width: 100px;
+}
+
+.img1 {
+  transform: scaleX(1);
+}
+
+.img2 {
+  transform: scaleX(-1);
+}
+
+.img3 {
+    transform: scale(-1);
+}
+
+.img4 {
+    transform: scaleX(-1.5);
+}

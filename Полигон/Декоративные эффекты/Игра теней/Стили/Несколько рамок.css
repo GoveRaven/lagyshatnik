@@ -1,0 +1,27 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.btn {
+  display: block;
+  margin: 100px auto;
+  padding: 15px 20px;
+  width: 150px;
+  border: none;
+  box-sizing: content-box;
+  border-radius: 5px;
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font: inherit;
+  box-shadow: 
+  0 0 0 5px #e74c3c,
+  0 0 0 10px #f1c40f,
+  0 0 0 15px #2ecc71;
+}

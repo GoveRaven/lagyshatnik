@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FlashNews!</title>
+    <link rel="stylesheet" href="Новости 2.css" />
+  </head>
+  <body>
+    <header>FlashNews!</header>
+    <main class="inner-news">
+      <article class="container">
+        <div class="tooltip">
+          <button class="close-button">Закрыть</button
+          ><span class="tooltip-text">Подсказка</span>
+        </div>
+        <h1 class="inner-heading">Дополни свою реальность</h1>
+        <div class="news-full">
+          <div class="img"></div>
+          <div class="news-stats">
+            <button class="heart" type="button">
+              <span class="likes-number">245</span>
+            </button>
+            <time datetime="2019-12-22">22 декабря 2019</time>
+          </div>
+          <p>
+            Редакция Flashnews! подготовила подарок для своих подписчиков -
+            приложение
+            <button
+              class="tooltip-button"
+              type="button"
+              data-tooltip-text="Это когда у тебя в гостиной покемоны"
+            >
+              дополнительной реальности
+            </button>
+            , в котором вы мсможете погладить
+            <button
+              class="tooltip-button"
+              type="button"
+              data-tooltip-text="Что-то среднее между свиньёй и тушканчиком"
+            >
+              трубкозуба</button
+            >, вырастить
+            <button
+              class="tooltip-button"
+              type="button"
+              data-tooltip-text="Сам не знаю, погугли"
+            >
+              питахайю
+            </button>
+            или поговорить с
+            <button
+              class="tooltip-button"
+              type="button"
+              data-tooltip-text="Доступно только для владельцев годовой подписки"
+            >
+              Кексом
+            </button>
+            .
+          </p>
+        </div>
+      </article>
+      <section class="comments">
+        <h2>Комментарии</h2>
+        <ol class="comment-list">
+          <li class="user-comment">Хочу!!!</li>
+        </ol>
+        <form class="comment-form">
+          <div class="comment-inner">
+            <label class="comment-label" for="comment-textarea"
+              >Ваш комментарий</label
+            >
+            <textarea
+              placeholder="Комментарий"
+              class="comment-field"
+              rows="3"
+              required
+              id="comment-textarea"
+            ></textarea>
+          </div>
+          <div class="under-comment">
+            <span class="text-counter"
+              >Использовано <span class="char-counter">0</span>/142
+              символов</span
+            >
+            <button type="submit" class="submit-button">Отправить</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <p>FlashNews!</p>
+      </div>
+    </footer>
+    <script src="likes 2.js"></script>
+    <script src="comments 2.js"></script>
+    <script src="tooltip.js"></script>
+  </body>
+</html>

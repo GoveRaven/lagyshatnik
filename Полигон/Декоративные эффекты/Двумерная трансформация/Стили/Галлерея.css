@@ -1,0 +1,28 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.deck {
+  list-style: none;
+}
+
+.deck > li {
+  position: relative;
+  display: inline-block;
+  margin: 0 20px 20px 0;
+}
+
+.deck img {
+  width: 100px;
+  transition: all 0.5 linear;
+}
+
+.deck img:hover {
+  opacity: 0.6;
+  scale: 1.2;
+}

@@ -1,0 +1,23 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.block {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  background-color: #3a78a1;
+}
+
+.inline-absolute {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 15px;
+  background-color: #e74c3c;
+  opacity: 0.8;
+}

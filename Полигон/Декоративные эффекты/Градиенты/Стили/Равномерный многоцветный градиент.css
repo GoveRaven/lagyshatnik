@@ -1,0 +1,13 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.content {
+    height: 500px;
+    background-image: linear-gradient(to bottom, #063365, #29b593, #4ecad2, #13a0f0, #6d4bf6, #731cb7, #003f86);
+}

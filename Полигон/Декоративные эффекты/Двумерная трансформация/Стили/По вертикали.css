@@ -1,0 +1,35 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.world {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(213, 255, 149);
+}
+
+.wizard {
+  position: relative;
+  top: 244px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(109, 109, 255);
+
+  transform: translateY(-200px) translateX(400px) translateY(200px);
+}
+
+.tree {
+  position: relative;
+  top: 178px;
+  left: 170px;
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+}

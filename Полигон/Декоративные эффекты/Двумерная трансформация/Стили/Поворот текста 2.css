@@ -1,0 +1,58 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.content {
+  overflow: hidden;
+}
+
+article {
+  position: relative;
+  margin: 30px auto;
+  margin-bottom: 0;
+  width: 400px;
+  height: 200px;
+  background-color: #2ecc40;
+  color: white;
+}
+
+h3 {
+  transform: skew(-15deg);
+  position: relative;
+  top: 50px;
+  z-index: 1;
+  width: 120px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+}
+
+h3 span {
+  display: inline-block;
+  transform: skew(15deg);
+}
+
+p {
+  position: absolute;
+  transform: rotate(-15deg);
+  width: 150%;
+  top: -70px;
+  left: -60px;
+  font-size: 21px;
+  opacity: 0.15;
+}
+
+.fon {
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+  height: 200px;
+  background-color: #2ecc40;
+  color: white;
+}

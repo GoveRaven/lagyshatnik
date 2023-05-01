@@ -1,0 +1,31 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.dark {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  background-color: black;
+}
+
+.btn {
+  display: block;
+  margin: 100px auto;
+  padding: 15px 20px;
+  width: 150px;
+  border: none;
+  box-sizing: content-box;
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font: inherit;
+  box-shadow: 0 -5px 10px -3px #3498db,
+  0 5px 10px -3px #2ecc71;
+}

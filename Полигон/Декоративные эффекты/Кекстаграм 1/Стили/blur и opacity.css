@@ -1,0 +1,40 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.origin {
+  display: flex;
+  justify-content: center;  
+  margin: 50px;
+}
+
+.picture {
+  width: 250px;
+  height: 166;
+  background-color: white;
+  padding: 10px 10px 40px 10px;
+  box-shadow: 0 0 10px 1px rgb(75, 75, 75);
+}
+
+img {
+  width: 250px;
+}
+
+.work {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.blur {
+  filter: blur(5px);
+}
+
+.opacity {
+  filter: opacity(0.4);
+}

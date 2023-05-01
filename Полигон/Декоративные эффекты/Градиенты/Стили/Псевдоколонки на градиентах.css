@@ -1,0 +1,51 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.columns {
+  background-image: linear-gradient(
+    to right,
+    #e74c3c,
+    #e74c3c 45%,
+    transparent 45%,
+    transparent 55%,
+    #3498db 55%,
+    #3498db
+  );
+}
+
+.container {
+  margin: 20px auto;
+  min-height: 300px;
+  width: 400px;
+  box-shadow: 1px 1px 3px #333;
+  color: white;
+}
+
+.container::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.container div {
+  display: inline-block;
+}
+
+.left {
+  width: 40%;
+  padding: 0 7px;
+  background-color: #e74c3c;
+}
+
+.right {
+  float: right;
+  width: 40%;
+  padding: 0 7px;
+  background-color: #3498db;
+}

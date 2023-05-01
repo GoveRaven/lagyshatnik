@@ -1,0 +1,20 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.column {
+  display: inline-block;
+}
+
+.outline {
+  padding: 2px;
+  margin: 5px;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px dotted #666;
+}

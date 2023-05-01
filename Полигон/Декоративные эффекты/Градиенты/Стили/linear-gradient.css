@@ -1,0 +1,21 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.content {
+  height: 500px;
+  background-color: yellow;
+  background-image: linear-gradient(yellow, green);
+}
+
+h2 {
+  margin: 0;
+  padding-top: 250px;
+  text-align: center;
+  font-size: 30px;
+}

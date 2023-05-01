@@ -1,0 +1,40 @@
+body {
+    background-color: aliceblue;
+  }
+  
+  h1 {
+    background-color: lightblue;
+    border: 5px solid #fbceff;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 10px auto;
+  }
+  
+  .block {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    color: #cc0000;
+    background-color: rgba(255, 234, 171, 0.5);
+  }
+
+  .column1 {
+    float: left;
+    width: 65px;
+    min-height: 50px;
+    margin-right: 9px;
+  }
+
+  .column2 {
+    float: left;
+    width: 80px;
+    min-height: 50px;
+  }
+
+  .column3 {
+    float: right;
+    width: 65px;
+    min-height: 50px;
+  }

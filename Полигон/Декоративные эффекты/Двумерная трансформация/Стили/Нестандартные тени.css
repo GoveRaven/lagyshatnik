@@ -1,0 +1,49 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.shadow-box {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  margin: 50px auto;
+  padding: 100px 0;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 3px #ccc;
+}
+
+.shadow-box::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 80%;
+  bottom: 15px;
+  width: 45%;
+  max-width: 300px;
+  background-color: #ddd;
+  box-shadow: 0 15px 10px #555;
+
+  transform: rotate(-3deg);
+  z-index: -1;
+}
+
+.shadow-box::after {
+  content: "";
+  position: absolute;
+  top: 80%;
+  bottom: 15px;
+  right: 10px;
+  width: 45%;
+  max-width: 300px;
+  background-color: #ddd;
+  box-shadow: 0 15px 10px #555;
+
+  transform: rotate(3deg);
+  z-index: -1;
+}

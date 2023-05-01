@@ -1,0 +1,15 @@
+.block {
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    border: 0px;
+}
+
+.block2 {
+    padding: 0 20px;
+}
+
+.block3 {
+    padding: 0 20px;
+    border: 10px solid #6a6a6a;
+}

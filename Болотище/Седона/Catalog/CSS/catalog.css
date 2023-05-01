@@ -1,0 +1,136 @@
+.main__catalog {
+  width: 1057px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.catalog__hotel {
+  padding: 20px;
+}
+
+.hotel__pic {
+  width: 300px;
+  height: 206px;
+}
+
+.hotel__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.hotel__info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+
+  width: 299px;
+  height: 23px;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #333333;
+}
+
+.hotel__type {
+  width: 130px;
+}
+
+.hotel__price {
+  margin-left: 15px;
+}
+
+.hotel__btn {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 7px;
+
+  width: 300px;
+  height: 37px;
+}
+
+.hotel__info-btn,
+.hotel__fav-btn {
+  height: 37px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+
+.hotel__info-btn {
+  background: #756257;
+  width: 130px;
+}
+
+.hotel__fav-btn {
+  width: 140px;
+  background: #83b3d3;
+}
+
+.hotel__fav-btn.hotel__fav-act {
+  background: #7db54f;
+}
+
+.hotel__rate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+
+  width: 300px;
+  height: 37px;
+}
+
+.stars * {
+  margin-right: 7px;
+}
+
+.rate_rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 37px;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  color: #333333;
+  background: #f2f2f2;
+  border-radius: 4px;
+}
+
+.catalog__more {
+  display: flex;
+  justify-content: center;
+  width: 1057px;
+  padding: 30px 0;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.more__btn {
+  width: 619.83px;
+  height: 60px;
+  color: white;
+  background: #83b3d3;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+}

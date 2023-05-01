@@ -1,0 +1,95 @@
+.site__footer {
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__visit-Sedona {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.footer__socials {
+  display: flex;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px;
+  width: 46px;
+  height: 48px;
+  background: #81b3d2;
+  cursor: pointer;
+
+}
+
+.social:hover {
+  background: #669ec0;
+}
+
+.social:active {
+  background: #5496bd;
+}
+
+.social:active .social-twitter,
+.social:active .social-facebook,
+.social:active .social-youtube {
+    opacity: 0.3;
+}
+
+.social-twitter {
+  width: 18px;
+  height: 15px;
+}
+
+.social-facebook {
+  width: 9px;
+  height: 19px;
+}
+
+.social-youtube {
+  width: 20px;
+  height: 14px;
+}
+
+.footer__html-academy {
+  display: flex;
+  justify-content: center;
+}
+
+.html-academy-made {
+  margin-right: 15px;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.html-academy-logo {
+    width: 27px;
+    height: 34px;
+    background-image: url('../Img/footer__html-academy-logo.svg.svg');
+    cursor: pointer;
+
+}
+
+.html-academy-logo:hover {
+    background-image: url('../Img/footer__html-academy-logo-hover.svg');
+}
+
+.html-academy-logo:active {
+    background-image: url('../Img/footer__html-academy-logo-active.svg');
+}
+
+@media (max-width: 425px) {
+  .site__footer {
+    height: 235px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

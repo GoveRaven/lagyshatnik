@@ -1,0 +1,39 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.origin {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.picture {
+  width: 250px;
+  height: 166;
+  background-color: white;
+  padding: 10px 10px 40px 10px;
+}
+
+img {
+  width: 250px;
+}
+
+.work {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.shadow1 {
+    filter: drop-shadow(15px 15px 15px black);
+}
+
+.shadow2 {
+    filter: drop-shadow(0 0 20px red);
+}

@@ -1,0 +1,48 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.buttons {
+  width: 400px;
+  margin: 50px auto;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 3px #ccc;
+}
+
+.btn-green {
+  background-color: #1abc9c;
+  border: 0px;
+  border-bottom: 2px solid #12ab8d;
+  box-shadow: inset 0 -2px #12ab8d;
+}
+
+.btn-green .icon {
+  position: absolute;
+  left: 20px;
+  top: 12px;
+  width: 24px;
+  height: 24px;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-green:hover .icon {
+    transform: rotate(360deg) scale(1.2);
+}
+
+button {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  color: white;
+}
+
+.button:hover {
+    transform: rotate(360deg)
+}

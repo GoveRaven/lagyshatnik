@@ -1,0 +1,30 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.world {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(213, 255, 149);
+}
+
+img {
+    transform: scale(0.5);
+    transform-origin: left bottom;
+  width: 200px;
+}
+
+.shadow {
+  height: 161px;
+  border: 2px solid gray;
+  background-color: rgba(128, 128, 128, 0.5);
+}

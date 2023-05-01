@@ -1,0 +1,140 @@
+body {
+  width: 640px;
+}
+
+.products {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
+}
+
+.product {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+}
+
+.product--available::before {
+  position: absolute;
+  right: 30%;
+  bottom: 25%;
+  content: "В наличии";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 25px;
+  border-bottom: 1px solid green;
+  color: black;
+}
+
+.product--unavailable {
+  filter: grayscale(100%);
+}
+
+.product--unavailable::before {
+  position: absolute;
+  right: 30%;
+  bottom: 25%;
+  content: "Нет наличии";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 25px;
+  border-bottom: 1px solid green;
+  color: black;
+}
+
+.product_image {
+  width: 100%;
+  height: 80%;
+  background-color: coral;
+}
+
+.product_title {
+  width: 70%;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.product_price {
+  vertical-align: top;
+  text-align: right;
+  width: 20%;
+  display: inline-block;
+}
+
+.product--special {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  order: -1;
+  flex-grow: 1;
+}
+
+.product--special::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "Товар дня";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 25px;
+  background-color: rgb(255, 217, 0);
+  font-weight: bold;
+}
+
+.product--special::before {
+  position: absolute;
+  left: 75px;
+  bottom: 20px;
+  content: "В наличии";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 25px;
+  border-bottom: 1px solid green;
+  color: black;
+}
+
+.product--special .product_image {
+  width: 45%;
+  height: 100%;
+  border: 2px solid rgb(255, 217, 0);
+}
+
+.product--special .product_title {
+  width: 20%;
+  display: block;
+  margin: 0px 20px;
+  font-size: 30px;
+}
+
+.product--special .product_price {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  width: auto;
+  display: block;
+  margin: 0px 20px;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.product_special-price {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: auto;
+  display: block;
+  margin: 0px 20px;
+  font-size: 24px;
+  font-weight: bolder;
+}

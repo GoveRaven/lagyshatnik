@@ -1,0 +1,26 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.container {
+  width: 300px;
+  margin: 10px auto;
+}
+
+.block {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  color: #cc0000;
+}
+
+.column1 {
+  float: left;
+  width: 120px;
+  min-height: 50px;
+}

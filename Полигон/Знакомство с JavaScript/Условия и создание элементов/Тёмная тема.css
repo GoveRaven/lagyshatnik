@@ -1,0 +1,32 @@
+.headerDark {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+.buttonDark {
+  background-color: rgb(122, 64, 175);
+}
+
+.mainDark {
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+
+.newsDark,
+.user-commentDark,
+.comment-formDark,
+.inputDark,
+.likesDark,
+.heartDark {
+  background-color: rgb(68, 68, 68);
+  color: white;
+}
+
+.user-commentDark {
+  border: 1px solid gray;
+}
+
+.footerDark {
+  color: white;
+  background-color: rgb(91, 48, 131);
+}

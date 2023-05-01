@@ -1,0 +1,42 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.room {
+  background-color: #c2b96c;
+  border: 2px dashed #83770b;
+  min-height: 400px;
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.rug {
+  display: flex;
+  background-color: #aaceda;
+  border: 2px solid #33b7df;
+  margin: 10px;
+  height: 100px;
+  min-width: 130px;
+  align-items: center;
+  justify-content: center;
+}
+
+.keks {
+  height: 250px;
+}
+
+.room1 {
+    align-items: flex-start;
+}
+
+.room2 {
+    align-items: flex-end;
+}

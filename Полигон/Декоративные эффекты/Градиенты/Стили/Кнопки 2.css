@@ -1,0 +1,38 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  box-shadow: 0 0 6px -2px #000;
+  border: 0px;
+  display: inline-block;
+  margin: 20px auto;
+  padding: 20px 50px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.simple-gray {
+  background-image: linear-gradient(to bottom, #fff, #ddd);
+  color: #333;
+}
+
+.strong-brown {
+  background-image: linear-gradient(#cc0630 0%, #8f0222 75%, #6d0019 100%);
+  color: #fff;
+}
+
+.glossy-blue {
+  background-image: none;
+  color: #fff;
+}

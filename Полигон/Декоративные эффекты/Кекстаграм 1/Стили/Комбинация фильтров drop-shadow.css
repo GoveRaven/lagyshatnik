@@ -1,0 +1,23 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-image: linear-gradient(#fff, #c9c9c9);
+  font-size: 25px;
+
+  filter: drop-shadow(200px 20px 0 #0074d9) drop-shadow(0 100px 0 #2ecc40);
+}

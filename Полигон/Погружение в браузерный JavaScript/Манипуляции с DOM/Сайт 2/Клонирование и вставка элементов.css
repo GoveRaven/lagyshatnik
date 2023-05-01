@@ -1,0 +1,26 @@
+.pool {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: first baseline;
+  background-color: rgb(213, 243, 255);
+}
+
+.el {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 85px;
+  margin: 5px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  border: 15px solid rgb(119, 119, 255);
+  background-color: rgb(169, 209, 255);
+}
+
+.el-green {
+  border: 15px solid rgb(120, 255, 86);
+  background-color: rgb(119, 255, 169);
+}

@@ -1,0 +1,31 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.post {
+  display: flex;
+}
+
+section {
+  border-left: 3px solid black;
+  padding-left: 20px;
+}
+
+aside {
+    order: -1;
+    width: 100px;
+}
+
+.web {
+    display: inline-block;
+  background-color: rgb(65, 146, 252);
+  border: 2px solid rgb(65, 146, 252);
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}

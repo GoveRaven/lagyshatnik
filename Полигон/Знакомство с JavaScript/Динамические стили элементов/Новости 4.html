@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FlashNews!</title>
+    <link rel="stylesheet" href="Новости 4.css" />
+  </head>
+  <body>
+    <header>FlashNews!</header>
+    <main>
+      <div class="settings">
+        <div class="colors">
+          <div class="text-color">
+            <label for="text-color">Цвет текста:</label>
+            <select id="text-color" class="color-setting">
+              <option value="">По умолчанию</option>
+              <option value="black">Чёрный</option>
+              <option value="white">Белый</option>
+              <option value="lightgray">Светло-серый</option>
+              <option value="pink">Розовый</option>
+              <option value="orange">Оранжевый</option>
+              <option value="brown">Коричневый</option>
+              <option value="gold">Золотой</option>
+              <option value="green">Зелёный</option>
+              <option value="aquamarine">Аквамарин</option>
+              <option value="skyblue">Небесно-голубой</option>
+              <option value="indigo">Индиго</option>
+              <option value="purple">Пурпурный</option>
+            </select>
+          </div>
+          <div class="background-color">
+            <label for="background-color">Цвет фона:</label>
+            <select id="background-color" class="background-setting">
+              <option value="">По умолчанию</option>
+              <option value="black">Чёрный</option>
+              <option value="white">Белый</option>
+              <option value="lightgray">Светло-серый</option>
+              <option value="pink">Розовый</option>
+              <option value="orange">Оранжевый</option>
+              <option value="brown">Коричневый</option>
+              <option value="gold">Золотой</option>
+              <option value="green">Зелёный</option>
+              <option value="aquamarine">Аквамарин</option>
+              <option value="skyblue">Небесно-голубой</option>
+              <option value="indigo">Индиго</option>
+              <option value="purple">Пурпурный</option>
+            </select>
+          </div>
+        </div>
+        <div class="font-size">
+          <label for="font-size"
+            >Размер текста (<span class="pixels">14</span>px)</label
+          >
+          <input
+            class="size-setting"
+            type="range"
+            id="font-size"
+            min="8"
+            max="48"
+            step="1"
+            value="14"
+          />
+        </div>
+      </div>
+      <div class="longread">
+        <h3>Зачем нужны алгоритмы</h3>
+        <p>
+          Многих пугает слово алгоритм, кажется, что это что-то сложное. но на
+          деле это просто законченный набор инструментов. Получается, что вы
+          используете алгоритмы и в обычной жизни, например, когда готовите по
+          рецепту, или добираетесь по навигатору из точки А в точку Б, или
+          решаете квадратное уравнение.
+        </p>
+        <p>
+          Когда разработчики говорят об алгоритмах, они имеют в вду не все
+          алгоритмы, а только популярные решения стандартных задач. Многие
+          алгоритмы были придуманы ещё до компьютеров: например, алгоритм
+          поразрядной сортировк был запантентован в девятнадцатом веке в США для
+          обработки данных, полученных после перепии населения.
+        </p>
+        <p>
+          Для решения одной и той же задачи могут подходить разные алгоритмы.
+          Представьте, у вас есть список, в котором нужно найти элемент.
+          Предположим, что это список товаров в интернет-магазине и пользователь
+          вводит фильтр название товара, которое начинается с буквы "Е".
+        </p>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <p>FlashNews!</p>
+      </div>
+    </footer>
+    <script src="read-mode.js"></script>
+  </body>
+</html>

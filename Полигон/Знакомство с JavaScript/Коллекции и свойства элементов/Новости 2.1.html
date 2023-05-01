@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FlashNews!</title>
+    <link rel="stylesheet" href="Новости 2.css" />
+  </head>
+  <body>
+    <header>FlashNews!</header>
+    <main class="inner-news">
+      <article class="container">
+        <div class="tooltip">
+          <button class="close-button">Закрыть</button
+          ><span class="tooltip-text">Подсказка</span>
+        </div>
+        <h1 class="inner-heading">Дроновирус</h1>
+        <div class="news-full">
+          <div class="img"></div>
+          <div class="news-stats">
+            <button class="heart" type="button">
+              <span class="likes-number">245</span>
+            </button>
+            <time datetime="2019-12-22">22 декабря 2019</time>
+          </div>
+          <p>
+            Конструкторы лаборатории
+            <button
+              class="tooltip-button"
+              type="button"
+              data-tooltip-text="Так себе лаборатория"
+            >
+              DogDrones.inc
+            </button>
+            заверили, что их дроны не могут быть переносчиками опасных вирусов,
+            так как это не заложено в их программу.
+            <button
+              class="tooltip-button"
+              type="button"
+              data-tooltip-text="Но это не точно, - прим. юриста"
+            >
+              Возможно</button
+            >, истинная причина в том, что дроны лаборатории не способны
+            переносить вообще ничего.
+          </p>
+        </div>
+      </article>
+      <section class="comments">
+        <h2>Комментарии</h2>
+        <ol class="comment-list"></ol>
+        <form class="comment-form">
+          <div class="comment-inner">
+            <label class="comment-label" for="comment-textarea"
+              >Ваш комментарий</label
+            >
+            <textarea
+              placeholder="Комментарий"
+              class="comment-field"
+              rows="3"
+              required
+              id="comment-textarea"
+            ></textarea>
+          </div>
+          <div class="under-comment">
+            <span class="text-counter"
+              >Использовано <span class="char-counter">0</span>/142
+              символов</span
+            >
+            <button type="submit" class="submit-button">Отправить</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <p>FlashNews!</p>
+      </div>
+    </footer>
+    <script src="likes 2.js"></script>
+    <script src="comments 2.js"></script>
+    <script src="tooltip.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+li a {
+  text-decoration-line: none;
+  color: white;
+  margin: auto;
+}
+
+.sort-list {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #13285f;
+  background-color: #3b4766;
+}
+
+/*ol {
+  list-style-type: none;
+  counter-reset: num;
+}
+
+ol li {
+  position: relative;
+}
+
+ol li:before {
+  content: counter(num);
+  counter-increment: num;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -38px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 50%;
+  border: 3px solid #13285f;
+} */
+
+li {
+  color: white;
+  min-width: 70px;
+  height: 30px;
+  background-color: #3b4766;
+  border-bottom: 2px solid #13285f;
+  border-left: 2px solid #13285f;
+}
+
+.input-sort:checked ~ .sort-list {
+  flex-direction: column-reverse;
+}

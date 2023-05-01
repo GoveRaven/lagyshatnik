@@ -1,0 +1,45 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.world {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(213, 255, 149);
+}
+
+.wizard {
+  position: relative;
+  top: 244px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(109, 109, 255);
+}
+
+.fireball {
+  position: relative;
+  top: 180px;
+  left: 80px;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 81, 0);
+}
+
+.fireball-1 {
+  transform: translateX(310px);
+}
+
+.fireball-2 {
+  transform: translateY(-190px);
+}
+
+.fireball-3 {
+  transform: translate(290px, -190px);
+}

@@ -1,0 +1,12 @@
+.menu li {
+  display: none;
+}
+
+.menu:hover li {
+  display: block;
+}
+
+ol {
+  margin: 0;
+  padding: 0
+}

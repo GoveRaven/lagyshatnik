@@ -1,0 +1,35 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.deck {
+  position: relative;
+  top: 150px;
+  left: 50%;
+  width: 100px;
+  margin-left: -55px;
+}
+
+.deck img {
+  position: absolute;
+  transition: all 0.1s linear;
+  transform-origin: 0 0;
+  width: 150px;
+}
+
+.Queen {
+  transform: rotate(-10deg);
+}
+
+.Jack {
+  transform: rotate(-20deg);
+}
+
+.ten {
+  transform: rotate(-30deg);
+}

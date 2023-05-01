@@ -1,0 +1,140 @@
+div {
+  display: inline-block;
+  width: 192px;
+  height: 192px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #999;
+}
+
+.block1 {
+  background-color: #2ecc71;
+}
+
+.block2 {
+  background-color: #3498db;
+}
+
+.block3 {
+  background-color: #e73c3c;
+}
+
+.block4 {
+  background-color: #e67e22;
+}
+
+.block11 {
+  background-image: url("../фоновые картинки/cat-box-icon.png");
+}
+
+.block22 {
+  background-image: url("../фоновые картинки/cat-fish-icon.png");
+}
+
+.block33 {
+  background-image: url("../фоновые картинки/cat-drunk-icon.png");
+}
+
+.block44 {
+  background-image: url("../фоновые картинки/cat-tied-icon.png");
+}
+
+.block111 {
+  background-repeat: repeat-x;
+}
+
+.block222 {
+  background-repeat: repeat-y;
+}
+
+.block333 {
+  background-repeat: no-repeat;
+}
+
+.blocknr {
+  background-repeat: no-repeat;
+}
+
+.blocknr1 {
+  background-position: 50% 50%;
+}
+
+.blocknr2 {
+  background-position: 100% 0;
+}
+
+.blocknr3 {
+  background-position: 0 100%;
+}
+
+.blocknr4 {
+  background-position: 100% 100%;
+}
+
+.block5,
+.block6 {
+  width: 140px;
+  height: 20px;
+  margin: 25px auto;
+  padding: 25px 0;
+  padding-left: 90px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #999;
+}
+
+.block5 {
+  background: #e47c3c url("../фоновые картинки/cat-eyes-icon.png") no-repeat
+    10px 5px;
+}
+
+.block6 {
+  background: #2980b9 url("../фоновые картинки/cat-fish-icon.png") no-repeat
+    10px 5px;
+}
+
+.box {
+  width: 300px;
+  height: 140px;
+  margin: 20px auto;
+}
+
+.box1 {
+  background-color: #2ecc71;
+}
+
+.box2 {
+  background-color: #f1c40f;
+}
+
+.box3 {
+  background-image: linear-gradient(to bottom, #2ecc71, #f1c40f);
+}
+
+.boximg1 {
+  height: 134px;
+  background-image: url("../фоновые картинки/cat-cage-icon.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.boximg2 {
+  height: 134px;
+  background-image: url("../фоновые картинки/cat-cage-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.gif1 {
+  height: 192px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: url("../фоновые картинки/purr.gif");
+}
+
+.gif2 {
+  height: 192px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: url("../фоновые картинки/walk.gif");
+}

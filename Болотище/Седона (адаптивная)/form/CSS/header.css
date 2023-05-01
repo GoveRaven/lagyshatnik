@@ -1,0 +1,158 @@
+.site__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.header__list-item {
+  width: 20%;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  padding: 21px 0;
+}
+
+.header__list-item:hover {
+  color: #81B3D2;
+}
+
+.header__list-item:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.header__list-item.current {
+  color: #766357;
+}
+
+.list-item-logo {
+  cursor: none;
+}
+
+.header__logo {
+  position: absolute;
+  top: 0;
+  width: 190px;
+  height: 96px;
+  z-index: 1;
+  background-image: url("../Img/logo.svg");
+  background-size: cover;
+}
+
+.header__menu-icon,
+.header__close-button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header__list-item {
+    margin: 0;
+  }
+
+  .list-item-logo {
+    width: 100px;
+  }
+
+  .header__logo {
+    position: absolute;
+    width: 101px;
+    height: 84px;
+    z-index: 1;
+    background-image: url("../Img/logo-smaller.svg");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__list {
+    height: 56px;
+  }
+
+  .header__list-item {
+    display: none;
+  }
+
+  .header__list-item.current {
+    color: #FFFFFF;
+  }
+
+  .header__list-mobile {
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background: #81B3D2;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+    z-index: 3;
+  }
+
+
+  .header__list-mobile .header__list-item {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .header__list-mobile .header__list-item:hover {
+  background: #669EC0;
+  }
+
+  .header__list-mobile .header__list-item:active {
+  background: #5496BD;
+  }  
+  .header__list-mobile .list-item-logo {
+    display: none;
+  }
+
+  .header__list-mobile .header__close-button {
+    display: block;
+    height: 22px;
+    width: 22px;
+    margin: 17px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('../Img/header__icon-cross.svg');
+    background-color: inherit;
+    border: none;
+    z-index: 4;
+  }
+
+  .header__menu-icon {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: 17px 20px;
+    background-image: url('../Img/icon-menu.svg');
+    background-size: cover;
+    background-color: white;
+    border: none;
+  }
+
+  .header__menu-icon:hover, 
+  .header__close-button:hover {
+    opacity: 0.6;
+  }
+
+  .header__menu-icon:active, 
+  .header__close-button:active {
+    opacity: 0.3;
+  }
+}

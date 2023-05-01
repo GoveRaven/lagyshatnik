@@ -1,0 +1,30 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: lightblue;
+  border: 5px solid #fbceff;
+}
+
+.content {
+  width: 350px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.gradient {
+  width: 150px;
+  height: 300px;
+  box-shadow: 0 0 3px #333;
+}
+
+.gradient1 {
+  float: left;
+  background-image: linear-gradient(to right top, green, yellow, green);
+}
+
+.gradient2 {
+  float: right;
+  background-image: linear-gradient(45deg, green, yellow, green);
+}

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sedona</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="CSS/first-screen.css" />
+    <link rel="stylesheet" href="CSS/form-entrance.css" />
+    <link rel="stylesheet" href="CSS/form-himself.css" />
+    <link rel="stylesheet" href="CSS/pop-ups.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
+  </head>
+  <body>
+    <header class="site__header">
+      <div class="header__logo"></div>
+      <ul class="header__list">
+        <li class="header__list-item"><a href="../index.html">Главная</a></li>
+        <li class="header__list-item"><a href="../Catalog/Catalog.html">ФОТО И ВИДЕО</a></li>
+        <li class="header__list-item list-item-logo"></li>
+        <li class="header__list-item current">
+          <a href="form.html">Форма отзыва</a>
+        </li>
+        <li class="header__list-item">HTML academy</li>
+        <li class="header__list-close-btn">
+          <button class="header__close-button"></button>
+        </li>
+      </ul>
+      <button class="header__menu-icon"></button>
+    </header>
+    <main class="site__main">
+      <section class="main__first-screen">
+        <img
+          src="Img/main__first-screen-Sedona.svg"
+          class="main__first-screen-Sedona"
+        />
+        <div class="main_first-screen-divider"></div>
+      </section>
+      <section class="main__form">
+        <article class="form__entrance">
+          <h1 class="form__title">Оставьте свой отзыв</h1>
+          <span class="form__text"
+            >Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о
+            посещенных вами достопримечательностях</span
+          >
+        </article>
+        <form class="form__himself">
+          <fieldset class="form__impression">
+            <legend class="form__category-name category-name-impression">
+              ВАше Общее впечатление:
+            </legend>
+            <div>
+              <input
+                type="radio"
+                name="impression"
+                id="impr_positiv"
+                class="impression-radio"
+              />
+              <label for="impr_positiv" class="impression-option"
+                >Скорее положительное</label
+              >
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="impression"
+                id="impr_negative"
+                class="impression-radio"
+              />
+              <label for="impr_negative" class="impression-option">
+                Скорее отрицательное</label
+              >
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="impression"
+                id="impr_neutral"
+                class="impression-radio"
+              />
+              <label for="impr_neutral" class="impression-option">
+                Затрудняюсь ответить</label
+              >
+            </div>
+          </fieldset>
+          <div class="impression-introduce-divider"></div>
+          <fieldset class="form__introduce">
+            <legend class="form__category-name category-name-introduce">
+              Представьтесь:
+            </legend>
+            <label for="name" class="introduce-option"
+              >ИМЯ*:
+              <input
+                type="text"
+                id="name"
+                placeholder="Петр"
+                class="introduce-input"
+                required
+            /></label>
+            <label for="lastname" class="introduce-option"
+              >ФАМИЛИЯ*:
+              <input
+                type="text"
+                id="lastname"
+                placeholder="Иванов"
+                class="introduce-input"
+                required
+            /></label>
+            <label for="surname" class="introduce-option"
+              >Отчество:
+              <input
+                type="text"
+                id="sur"
+                placeholder="Александрович"
+                class="introduce-input"
+            /></label>
+          </fieldset>
+          <fieldset class="form__contact-info">
+            <legend class="form__category-name category-name-with-lines form__category-name-contact-info" >
+              Контактная информация:
+            </legend>
+            <span class="contact-info-name">Телефон*:</span>
+            <label for="number" class="contact-info-input-and-icon">
+              <input
+                type="tel"
+                id="number"
+                placeholder="Введите телефон"
+                class="contact-info-input"
+                required
+              />
+              <div class="contact-info-phone"></div>
+            </label>
+            <span class="contact-info-name"> Электронная почта*: </span>
+            <label for="email" class="contact-info-input-and-icon">
+              <input
+                type="email"
+                id="email"
+                placeholder="Введите e-mail"
+                class="contact-info-input"
+                required />
+              <div class="contact-info-email"></div
+            ></label>
+          </fieldset>
+          <fieldset class="form__visited-attraction">
+            <legend class="form__category-name category-name-with-lines">
+              посещенные <br />
+              достопримечательности:
+            </legend>
+            <div>
+              <input
+                type="checkbox"
+                id="Devils-bridge"
+                class="visited-attraction-input"
+                checked
+              />
+              <label for="Devils-bridge" class="visited-attraction-name">
+                Мост Дьявола</label
+              >
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="Mounth-bell"
+                class="visited-attraction-input"
+              />
+              <label for="Mounth-bell" class="visited-attraction-name">
+                Гора-Колокол</label
+              >
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="Slide-park"
+                class="visited-attraction-input"
+              />
+              <label for="Slide-park" class="visited-attraction-name">
+                Слайд-парк</label
+              >
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="Red rocks"
+                class="visited-attraction-input"
+              />
+              <label for="Red rocks" class="visited-attraction-name">
+                Красные скалы</label
+              >
+            </div>
+          </fieldset>
+          <fieldset class="form__emotions">
+            <legend class="form__category-name category-name-with-lines">
+              Опишите свои эмоции:
+            </legend>
+            <textarea
+              placeholder="Опишите подробно все свои восторги "
+              class="emotions-input"
+              name=""
+              id=""
+            ></textarea>
+          </fieldset>
+          <fieldset class="form__end">
+            <button class="form__end-sent-btn">
+              <span class="form__end-sent-btn-text">ОТПРАВИТЬ ОТЗЫВ</span>
+            </button>
+            <span class="form__end-memo">* — обязательные поля</span>
+          </fieldset>
+        </form>
+      </section>
+      <section class="main__pop-ups main__pop-ups-hide">
+        <article class="pop-ups__error pop-ups-hide">
+          <h1 class="pop-ups-error__title">Что-то пошло не так!</h1>
+          <span class="pop-ups-error__text"
+            >Проверьте поля, выделенные красным, скорее всего вы забыли их
+            заполнить</span
+          >
+          <button class="pop-ups-error__btn">OK</button>
+        </article>
+        <article class="pop-ups__sucsses pop-ups-hide">
+          <div class="pop-ups-sucsses__upper-part">
+            <h1 class="upper-part__title">Ваш отзыв отправлен!</h1>
+            <span class="upper-part__text"
+              >Спасибо за ваше участие, ваш отзыв уже поступил к нам.В ближайшее
+              время мы опубликуем его на сайте.</span
+            >
+          </div>
+          <div class="pop-ups-sucsses__lower-part">
+            <button class="lower-part__btn">ЗАКРЫТЬ ОКНО</button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="site__footer">
+      <span class="footer__visit-Sedona">#visitSEDONA</span>
+      <article class="footer__socials">
+        <div class="social">
+          <img src="Img/social-twitter.svg" class="social-twitter" />
+        </div>
+        <div class="social">
+          <img src="Img/social-facebook.svg" class="social-facebook" />
+        </div>
+        <div class="social">
+          <img src="Img/social-youtube.svg" class="social-youtube" />
+        </div>
+      </article>
+      <article class="footer__html-academy">
+        <span class="html-academy-made">Разработано</span>
+        <div class="html-academy-logo"></div>
+      </article>
+    </footer>
+    <script src="JS/header-mobile-menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    padding: 20px;
+}
+
+.block {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 0px;
+}
+
+.block1 {
+    margin-bottom: 20px;
+}
+
+.block2 {
+    margin-top: 40px;
+}
