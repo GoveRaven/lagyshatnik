@@ -12,8 +12,19 @@ body {
     transition: all 1s;
 }
 
+.title {
+    margin: 5px;
+}
+
 .control {
     height: 20px;
     border: 1px solid black;
     border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.control-block {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
 }
