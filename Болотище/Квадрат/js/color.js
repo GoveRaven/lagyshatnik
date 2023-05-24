@@ -10,4 +10,3 @@ color.addEventListener("keyup", () => {
   let setting = color.value;
   changeColor(setting);
 });
-

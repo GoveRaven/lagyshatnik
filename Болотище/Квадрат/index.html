@@ -12,15 +12,33 @@
     <div class="controls">
       <div class="control-block">
         <label>
-          <p class="title">Цвет</p>
+          <p class="title">Цвет квадрата</p>
           <input type="text" class="control color" />
         </label>
       </div>
-      <div class="control-block">
+      <div class="control-block control-border">
+        <p>Настройки границы</p>
         <label>
-          <p class="title">Границы</p>
-          <input type="text" class="control border"/>
+          <p class="title">Цвет</p>
+          <input type="text" class="control borderColor"/>
         </label>
+        <div class="control-border-ranges">
+          <label>
+            <p class="title">Радиус</p>
+            <input type="range" class="control borderRadius" min="1" max="50" step="1" value="1"/>
+          </label>
+          <label>
+            <p class="title">Толщина</p>
+            <input type="range" class="control borderWidth" min="1" max="10" step="1" value="1"/>
+          </label>
+        </div>
+        <select name="border-style" class="border-style">
+          <option value="none">Убрать рамку</option>
+          <option value="solid" selected>Сплошная</option>
+          <option value="dotted">Точки</option>
+          <option value="dashed">Тире</option>
+          <option value="double">Двойная</option>
+        </select>
       </div>
     </div>
     <script src="js/border.js"></script>

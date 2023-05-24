@@ -26,5 +26,16 @@ body {
 .control-block {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 15px 0;
+}
+
+.control-border {
+    display: flex;
+    align-items: center;
+}
+
+.control-border-ranges{
+    display: flex;
+    margin: 0 0px;
 }
