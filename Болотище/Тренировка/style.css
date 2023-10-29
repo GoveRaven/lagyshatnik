@@ -1,37 +1,46 @@
 body {
-  margin: 10px auto;
-  width: 470px;
+  background-color: rgb(149, 255, 223);
 }
 
-h3 {
-  margin: 0;
-  padding-bottom: .3em;
-  padding-right: 20px;
-  font-size: 1.1em;
+.zone {
+  display: flex;
+  align-items: center;
+  height: 20vh;
+
+  margin: 5vh 0;
+
+  border: 3px dashed red;
 }
 
-p {
-  margin: 0;
-  padding: 0 0 .5em;
+.cat {
+  margin: 5vh;
+  cursor: grab;
 }
 
-.pane {
-  background: #edf5e1;
-  padding: 10px 20px 10px;
-  border-top: solid 2px #c4df9b;
-  position: relative;
+/* .list_title { 
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.remove-button {
-  position: absolute;
-  font-size: 110%;
-  top: 0;
-  color: darkred;
-  right: 10px;
-  display: block;
-  width: 24px;
-  height: 24px;
-  border: none;
-  background: transparent;
-  cursor: pointer;
+.list {
+  list-style: none;
+  text-align: center;
 }
+
+.list_item {
+  width: 300px;
+
+  font-size: 1.5em;
+
+  margin: 3vh auto;
+  padding: 2vh;
+
+  cursor: grab;
+
+  border: 3px dashed rgb(14, 158, 79);
+  background-color: rgb(127, 255, 185);
+}
+
+.selected {
+  opacity: 0.5;
+} */
